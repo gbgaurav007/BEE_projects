@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #other h1{
+    color: white;
+    margin-left: 70px;
+    margin-bottom: -25px;
+  }
+
+
+.portfolio-section {
+    margin-left: 50px;
+    float: left;
+    display: flex;
+    color: rgb(212, 212, 212);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .knowledge-section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  .knowledge-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .knowledge-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .other-projects {
+    flex: 1;
+    width: 570px;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .project p {
+    margin-top: -15px;
+    font-size: 13px;
+    font-style: italic;
+  }
+
+.fa{
+    float: left;
+    color: rgb(212, 212, 212);
+}
